@@ -1,0 +1,26 @@
+//ArithmeticOperation.java
+//Simple input from user 
+//arithmetic operation
+
+package userinput;
+
+import java.util.Scanner;
+
+public class ArithmeticOperation {
+	//main class start execution
+
+	public static void main(String[] args) {
+		Scanner userinput = new Scanner(System.in);//Scanner class for userinput
+		float num1, num2;//variable
+		System.out.print("\nEnter the number1 :");
+		num1 = userinput.nextFloat();//input  number1
+		System.out.print("\nEnter the number2 :");
+		num2 = userinput.nextFloat();//input number2
+		
+		//Arithmetic Operation
+		System.out.printf("Sam of %f and %f  = %f", num1, num2, num1+num2 );
+		
+
+	}
+
+}

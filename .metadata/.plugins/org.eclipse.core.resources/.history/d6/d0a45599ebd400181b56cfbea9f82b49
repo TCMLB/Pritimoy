@@ -1,0 +1,22 @@
+//UserInput.java
+//UserInput class contain simple taking user input and print
+package userinput;
+
+import java.util.Scanner;
+
+public class UserInput {
+	//main class start execution
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner (System.in);
+	
+		int number;
+		System.out.println("Enter the number =");
+		
+		number = input.nextInt();
+		System.out.println("The number you Entre is = " +number);
+		double number2;
+		System.out.printf("Enter number2 =", number2= input.nextDouble(););
+	}
+
+}

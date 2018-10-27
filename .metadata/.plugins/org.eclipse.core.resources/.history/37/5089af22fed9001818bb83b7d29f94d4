@@ -1,0 +1,20 @@
+//AssignmentOoperation.java
+//AssignmentOperation class show assignment Operation
+
+package userinput;
+
+import java.util.Scanner;
+
+public class AssignmentOperation {//Assignmentclass
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int x,y;
+		System.out.println("Enter the of x and y");
+		x= input.nextInt();
+		y= input.nextInt();
+		System.out.printf("\n x= %d \n y= %d ",x,y);
+
+	}
+
+}

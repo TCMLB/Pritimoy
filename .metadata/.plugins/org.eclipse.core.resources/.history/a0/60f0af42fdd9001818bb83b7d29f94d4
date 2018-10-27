@@ -1,0 +1,13 @@
+//AssignmentOoperation.java
+//AssignmentOperation class show assignment Operation
+
+package userinput;
+
+public class AssignmentOperation {//Assignmentclass
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
