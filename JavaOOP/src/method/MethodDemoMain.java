@@ -20,11 +20,7 @@ public class MethodDemoMain {
 		
 		//create another object
 		MethodDemo studentobject1 = new MethodDemo();
-		/*studentobject1.name ="Suprovat Roy";
-		studentobject1.address ="Magura, Bangladesh";
-		studentobject1.id =2015000333;
-		studentobject1.email ="skroy@gmail.com";
-		studentobject1.phone_no ="012-123 4567";*/
+		
 		//call setInfo method for set Info
 				studentobject1.setInfo("Suprovat Roy",2015000333,"skroy@gmail.com",
 						"012-123 4567","Magura, Bangladesh"	);//passing method
